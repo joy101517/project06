@@ -1,0 +1,44 @@
+// color
+.text {
+  &-primary {
+    color: $primary;
+  }
+
+  &-primary-light {
+    color: $primary-light;
+  }
+
+  &-secondary {
+    color: $secondary;
+  }
+
+  &-secondary-light {
+    color: $secondary-light;
+  }
+
+  &-light {
+    color: $light;
+  }
+}
+
+.bg {
+  &-primary {
+    background-color: $primary;
+  }
+
+  &-primary-light {
+    background-color: $primary-light;
+  }
+
+  &-secondary {
+    background-color: $secondary;
+  }
+
+  &-secondary-light {
+    background-color: $secondary-light;
+  }
+
+  &-light {
+    background-color: $light;
+  }
+}

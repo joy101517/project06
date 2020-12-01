@@ -1,0 +1,96 @@
+// header
+
+.logo {
+  display: block;
+  width: 112px;
+  height: 48px;
+  background-image: url('../image/logo-fixie.svg');
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 101%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  transition: .5s;
+
+  &:hover {
+    background-color: $primary;
+    color: $light;
+  }
+
+}
+
+.btn-link {
+  transition: .5s;
+
+  &:hover {
+    background-color: $primary;
+    color: $light;
+  }
+}
+
+.nav-icon {
+  font-size: 48px;
+}
+
+.nav-title {
+  flex-grow: 2;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: .5s;
+
+  &:hover {
+    transform: scale(1.5);
+  }
+
+  &-light {
+    right: -60px;
+  }
+
+  &-primary {
+    left: -150.03px;
+  }
+}
+
+.more-icon {
+  font-size: 1rem;
+}
+
+.point-h {
+  right: 96px;
+  bottom: 192px;
+}
+
+.point-p {
+  right: 135px;
+  bottom: 96px;
+}
+
+.info {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.saying {
+  .container {
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+.copyright {
+  margin-left: -$spacing*6;
+}
