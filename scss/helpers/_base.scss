@@ -5,16 +5,13 @@
 }
 
 body {
+  overflow-x: hidden;
   color: $primary;
 }
 
 a {
   text-decoration: none;
   color: $primary;
-}
-
-.container-fluid {
-  width: 100vw;
 }
 
 .container {
@@ -42,7 +39,6 @@ a {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .p-relative {

@@ -1040,16 +1040,13 @@ a {
 }
 
 body {
+  overflow-x: hidden;
   color: #000000DE;
 }
 
 a {
   text-decoration: none;
   color: #000000DE;
-}
-
-.container-fluid {
-  width: 100vw;
 }
 
 .container {
@@ -1077,7 +1074,6 @@ a {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .p-relative {
@@ -1117,6 +1113,7 @@ a {
 }
 
 .btn-link {
+  cursor: pointer;
   transition: .5s;
 }
 
